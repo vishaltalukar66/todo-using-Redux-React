@@ -1,27 +1,44 @@
-# React + TypeScript + Vite
+# ToDo Web App with React and Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple ToDo web app built with React and Redux, where data is stored in the browser's localStorage.
 
-Currently, two official plugins are available:
+### Demo 🌐 
+**Line** https://todo-using-redux-react.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Key Features
 
-## Expanding the ESLint configuration
+- Add new tasks to the ToDo list.
+- Mark tasks as completed.
+- Delete tasks from the list.
+- Tasks are saved in the browser's localStorage, making data persistent.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- React: A JavaScript library for building user interfaces.
+- Redux: A predictable state container for JavaScript applications.
+- LocalStorage: Web storage that allows you to store data persistently in a web browser.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+
+## 📋 Usage
+
+*Clone the repository*
+
+   ```bash
+   git clone https://github.com/vishaltalukar66/todo-using-Redux-React
+   ```
+*Go to the project directory*
+
+```bash
+  cd todo-using-Redux-React
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+*Install dependencies*
+
+```bash
+  npm install
+```
+*Start the application*
+
+```bash
+  npm run dev
+```
